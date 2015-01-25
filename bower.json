@@ -1,0 +1,23 @@
+{
+  "name": "textticker",
+  "main": "textticker.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/textticker",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "A simple text ticker",
+  "keywords": [
+    "text",
+    "ticker",
+    "scroll"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
