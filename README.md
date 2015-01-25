@@ -16,9 +16,9 @@ bower install textticker
 
 ```javascript
 var sayings = [
-  'Programs must be written for people to read, and only incidentally for machines to execute.',
-  'Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.',
-  'Change breaks the brittle.'
+  'yippy yo',
+  'badabing',
+  'blahblah'
 ];
 
 var index = 0;
@@ -27,7 +27,7 @@ var ticker = new TextTicker(document.querySelector('.text'), {
   text: sayings[0], // defaults to element text
   duration: 50, // default: 50
   leadChar: '_', // default: _
-  leadCharKeep: true, // keep or remove lead character after done ticking. defaul:; true
+  leadCharKeep: true, // keep or remove lead character after done ticking. default: true
   leadCharBlink: 1000, // default: 1000
   onDone: function(text) {
     setTimeout(function() {
