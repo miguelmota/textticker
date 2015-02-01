@@ -42,7 +42,9 @@
       leadCharOpacity = 1;
       leadCharEl.style.opacity = 1;
       clearInterval(blinkInterval);
+      var totalDuration = 0;
       for (var i = 0; i < textLength; i++) {
+        totalDuration += result(duration);
         (function(i, t) {
           setTimeout(function() {
             clearContent();
@@ -54,7 +56,7 @@
               done();
             }
           }, t);
-        })(i, duration * i);
+        })(i, totalDuration);
       }
     };
 
@@ -90,6 +92,10 @@
 
     function clearContent() {
       element.innerHTML = '';
+    }
+
+    function result(o) {
+      return typeof o === 'function' ? o() : o;
     }
   }
 
