@@ -4,7 +4,7 @@
 
 ## Demo
 
-<img src="https://github.com/miguelmota/textticker/blob/master/screenshot.gif" />
+<img src="https://raw.githubusercontent.com/miguelmota/textticker/master/screenshot.gif" />
 
 [http://lab.moogs.io/textticker](http://lab.moogs.io/textticker)
 
