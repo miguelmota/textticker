@@ -1,6 +1,6 @@
 {
   "name": "textticker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A scrolling text ticker",
   "main": "textticker.js",
   "repository": {
