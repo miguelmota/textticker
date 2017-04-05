@@ -1,12 +1,12 @@
 {
   "name": "textticker",
   "main": "textticker.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/miguelmota/textticker",
   "authors": [
-    "Miguel Mota <miguelmota2@gmail.com>"
+    "Miguel Mota <hello@miguelmota.com>"
   ],
-  "description": "A simple text ticker",
+  "description": "A scrolling text ticker",
   "keywords": [
     "text",
     "ticker",

@@ -11,14 +11,17 @@
     text: sayings[0],
     duration: 50,
     leadChar: '_',
-    leadCharBlink: 1000,
+    leadCharBlink: 1e3,
     leadCharKeep: true,
+    leadCharMaxBlinks: 2,
+    leadCharMaxBlinks: Infinity,
+    startImediately: true,
     onDone: function(text) {
       setTimeout(function() {
         var nextSaying = index <= 1 ? (index += 1, sayings[index]) : (index = 0, sayings[index]);
         ticker.setText(nextSaying);
         ticker.reload();
-      }, 4000);
+      }, 4e3);
     }
   });
 })();
