@@ -48,7 +48,7 @@ ticker.destroy(); // stop ticking and set static text
 
 ## Resources
 
-There is a terminal version available, [terminal-textticker](https://github.com/miguelmota/terminal-textticker);
+There is a terminal version available, [terminal-textticker](https://github.com/miguelmota/terminal-textticker).
 
 # License
 
