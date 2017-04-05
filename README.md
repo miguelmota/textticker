@@ -2,9 +2,9 @@
 
 > A scrolling text ticker
 
-<img src="screenshot.gif" />
-
 ## Demo
+
+<img src="screenshot.gif" />
 
 [http://lab.moogs.io/textticker](http://lab.moogs.io/textticker)
 
