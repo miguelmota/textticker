@@ -6,7 +6,7 @@
 
 <img src="https://raw.githubusercontent.com/miguelmota/textticker/master/screenshot.gif" />
 
-[http://lab.miguelmota.com/textticker](http://lab.miguelmota.com/textticker)
+[https://lab.miguelmota.com/textticker](https://lab.miguelmota.com/textticker)
 
 ## Install
 
